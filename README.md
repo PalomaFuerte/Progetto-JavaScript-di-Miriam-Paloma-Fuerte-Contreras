@@ -6,7 +6,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![LocalStorage](https://img.shields.io/badge/LocalStorage-%2300A1F1?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-[![Deploy to Netlify](https://img.shields.io/badge/Deploy%20to-Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)](https://nombre-de-tu-sitio.netlify.app)
+[![Deploy to Netlify](https://img.shields.io/badge/Deploy%20to-Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)](https://progetto-javascript-di-paloma-fuerte.netlify.app)
 
 ## Descrizione del progetto
 
