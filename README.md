@@ -6,6 +6,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![LocalStorage](https://img.shields.io/badge/LocalStorage-%2300A1F1?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+[![Deploy to Netlify](https://img.shields.io/badge/Deploy%20to-Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)](https://nombre-de-tu-sitio.netlify.app)
 
 ## Descrizione del progetto
 
@@ -43,6 +44,9 @@ Semplice applicazione web in JavaScript puro che permette di aumentare, diminuir
 
 In alternativa, puoi visualizzare il progetto direttamente online tramite GitHub Pages:
 [Counter di Paloma Fuerte](https://PalomaFuerte.github.io/Progetto-JavaScript-di-Miriam-Paloma-Fuerte-Contreras/)
+
+Puoi anche vedere e provare il contatore online cliccando qui:  
+[Visualizza il contatore su Netlify](progetto-javascript-di-paloma-fuerte.netlify.app)
 
 ## Contatti
 
