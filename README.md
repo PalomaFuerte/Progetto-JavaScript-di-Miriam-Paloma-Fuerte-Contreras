@@ -46,7 +46,7 @@ In alternativa, puoi visualizzare il progetto direttamente online tramite GitHub
 [Counter di Paloma Fuerte](https://PalomaFuerte.github.io/Progetto-JavaScript-di-Miriam-Paloma-Fuerte-Contreras/)
 
 Puoi anche vedere e provare il contatore online cliccando qui:  
-[Visualizza il contatore su Netlify](progetto-javascript-di-paloma-fuerte.netlify.app)
+[Visualizza il contatore su Netlify](https://progetto-javascript-di-paloma-fuerte.netlify.app/)
 
 ## Contatti
 
