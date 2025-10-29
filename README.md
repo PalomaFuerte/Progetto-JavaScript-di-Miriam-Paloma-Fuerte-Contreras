@@ -17,7 +17,7 @@ Semplice applicazione web in JavaScript puro che permette di aumentare, diminuir
 - **JavaScript** puro per tutta la logica del contatore e manipolazione del DOM
 - Immagini create con **Canva**
 
-## Funcionalidades
+## Funzionalità
 
 - Incremento del contatore (+)
 - Decremento del contatore (−)
