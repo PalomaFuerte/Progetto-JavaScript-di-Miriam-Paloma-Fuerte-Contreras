@@ -5,7 +5,6 @@
 [![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![LocalStorage](https://img.shields.io/badge/LocalStorage-%2300A1F1?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 [![Deploy to Netlify](https://img.shields.io/badge/Deploy%20to-Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)](https://progetto-javascript-di-paloma-fuerte.netlify.app)
 
 ## Descrizione del progetto
@@ -16,7 +15,6 @@ Semplice applicazione web in JavaScript puro che permette di aumentare, diminuir
 
 - **HTML5** e **CSS3** per la struttura e lo stile della pagina
 - **JavaScript** puro per tutta la logica del contatore e manipolazione del DOM
-- **LocalStorage** per la persistenza del valore del contatore tra le sessioni
 - Immagini create con **Canva**
 
 ## Funcionalidades
@@ -27,7 +25,6 @@ Semplice applicazione web in JavaScript puro che permette di aumentare, diminuir
 - Uso della tastiera:
   - ArrowUp o + → incrementa
   - ArrowDown o - → decrementa
-- Persistenza del valore usando localStorage
 - Accessibilità: pulsanti con aria-label
 
 ## Istruzioni per eseguire il progetto localmente

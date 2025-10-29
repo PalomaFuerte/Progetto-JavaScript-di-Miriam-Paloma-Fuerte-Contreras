@@ -1,26 +1,4 @@
-const CHIAVE_STORAGE = 'valore-contatore';
 let valoreContatore = 0; // numero iniziale
-
-function salvaContatore() {
-  try {
-    localStorage.setItem(CHIAVE_STORAGE, String(valoreContatore));
-  } catch (e) {
-    console.warn('Non è stato possibile salvare localStorage:', e);
-  }
-}
-
-function caricaContatore() {
-  try {
-    const salvato = localStorage.getItem(CHIAVE_STORAGE);
-    if (salvato !== null) {
-      const n = Number(salvato);
-      if (!Number.isNaN(n)) return n;
-    }
-  } catch (e) {
-    console.warn('Non è stato possibile leggere localStorage:', e);
-  }
-  return 0;
-}
 
 function creaUIContatore(root) {
   const cartellaContatore = document.createElement('section');
@@ -67,11 +45,9 @@ function creaUIContatore(root) {
   return { elementoValore, pulsanteDiminuisci, pulsanteAumenta, pulsanteReset };
 }
 
-
 function aggiornaContatore(nuovoValore, elementoValore) {
   valoreContatore = nuovoValore;
   elementoValore.textContent = valoreContatore;
-  salvaContatore(); 
 }
 
 function incrementa(elementoValore) {
@@ -86,27 +62,21 @@ function resetta(elementoValore) {
   aggiornaContatore(0, elementoValore);
 }
 
-
 function inizializza() {
   const root = document.getElementById('root');
 
-  
-  valoreContatore = caricaContatore();
-
   const { elementoValore, pulsanteDiminuisci, pulsanteAumenta, pulsanteReset } = creaUIContatore(root);
 
-  
   pulsanteAumenta.addEventListener('click', () => incrementa(elementoValore));
   pulsanteDiminuisci.addEventListener('click', () => decrementa(elementoValore));
   pulsanteReset.addEventListener('click', () => resetta(elementoValore));
 
-  
   window.addEventListener('keydown', (e) => {
     if (
       e.key === 'ArrowUp' ||
-      e.key === '=' || 
-      e.key === '+' || 
-      e.code === 'NumpadAdd' 
+      e.key === '=' ||
+      e.key === '+' ||
+      e.code === 'NumpadAdd'
     ) {
       incrementa(elementoValore);
     }
